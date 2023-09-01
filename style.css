@@ -90,21 +90,45 @@ a {
 }
 
 
-.info {
+.info-container {
     display: flex;
     height: 300px;
     justify-content: center;
     align-items: center;
 }
 
+.info {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.info-text{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
 
+.info-content {
+    display: flex;
+    gap: 20px;
+}
 
+.info-content-segment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.info-subtext {
+    text-align: center;
+}
 
-
-
-.qoute {
+.qoute-container {
     display: flex;
     height: 300px;
     justify-content: center;
@@ -112,7 +136,7 @@ a {
     background-color: #E5E7EB;
 }
 
-.qoute-container {
+.qoute {
     width: 750px;
 }
 
@@ -129,13 +153,39 @@ a {
     text-align: end;
 }
 
-.sign-up {
+.sign-up-container {
     display: flex;
     height: 300px;
     justify-content: center;
     align-items: center;
 }
 
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    background-color: #3882f6;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sign-up-text {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.sign-up-subtext {
+    color: #f9faf8;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
 
 .footer-container {
     display: flex;
